@@ -19,7 +19,8 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.2",
     "redis": "^5.10.0",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "@supabase/supabase-js": "^2.57.0"
   },
   "devDependencies": {
     "eslint": "^9.39.2",
@@ -27,9 +28,9 @@
     "prettier": "^3.7.4"
   },
   "_moduleAliases": {
-  "@config": "src/config",
-  "@routes": "src/routes",
-  "@utils": "src/utils",
-  "@src": "src"
-}
+    "@config": "src/config",
+    "@routes": "src/routes",
+    "@utils": "src/utils",
+    "@src": "src"
   }
+}
